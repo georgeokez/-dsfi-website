@@ -1,0 +1,10 @@
+.header-menu-socials {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .hide-section {
+        display: none;
+    }
+}
