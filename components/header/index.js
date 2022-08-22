@@ -45,20 +45,6 @@ const Header = () => {
                                     <li><Link href="/Intern" title="">Intern</Link></li>   
                                 </ul>
                             </li>
-                            {/* <li><Link href="/BlogPage">Blog</Link>
-                                <ul>
-                                    <li><Link href="/BlogPage">Blog</Link></li>
-                                    <li><Link href="/BlogPageLeft">Blog Left sidebar</Link></li>
-                                    <li><Link href="/BlogPageFullwidth">Blog full width</Link></li>
-                                    <li><i className="fa fa-angle-right"></i><Link href="/BlogDetails" title="">Blog Details</Link>
-                                        <ul>
-                                            <li><Link href="/BlogDetails" title="">Blog single</Link></li>
-                                            <li><Link href="/BlogDetailsLeftSiide" title="">Blog single Left sidebar</Link></li>
-                                            <li><Link href="/BlogDetailsFull" title="">Blog single full width</Link></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li> */}
                         </ul>
                     </nav>
                 </div>
