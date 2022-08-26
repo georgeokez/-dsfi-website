@@ -7,23 +7,6 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/HomePage2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/HomePage3'
-            },
-        ]
     },
 
     {
@@ -32,105 +15,72 @@ const menus = [
         link: '/AboutPage',
     },
 
-{
-    id: 3,
-        title: 'Partnership',
-        link: '/CasePage',
-        submenu: [
-            {
-                id: 31,
-                title: 'Causes',
-                link: '/CasePage'
-            },
-            {
-                id: 32,
-                title: 'Causes Single',
-                link: '/CaseSinglePage'
-            }
-        ]
+    {
+        id: 3,
+            title: 'Partnership',
+            link: '/CasePage',
     },
-{
-    id: 4,
-        title: 'Resources',
-        link: '/EventPage',
-        submenu: [
-            {
-                id: 41,
-                title: 'Event',
-                link: '/EventPage'
-            },
-            {
-                id: 42,
-                title: 'Event Single',
-                link: '/EventPageSingle'
-            }
-        ]
+    
+    {
+        id: 4,
+            title: 'Resources',
+            link: '/EventPage',
+            submenu: [
+                {
+                    id: 41,
+                    title: 'Health Policy',
+                    link: '/HealthPolicy'
+                },
+                {
+                    id: 42,
+                    title: 'Housing Assistance',
+                    link: '/HousingAssistance'
+                },
+                {
+                    id: 43,
+                    title: 'Legal Assistance',
+                    link: '/LegalAssistance'
+                }
+            ]
     },
     {
         id: 7,
         title: 'Event',
-        link: '/',
+        link: '/EventPage',
         submenu: [
             {
                 id: 71,
-                title: 'About',
-                link: '/AboutPage'
+                title: 'Event',
+                link: '/EventPage'
             },
             {
                 id: 75,
-                title: 'Donate',
-                link: '/DonatePage'
-            },
-            {
-                id: 76,
-                title: 'Volunteer',
-                link: '/volunteerPage'
-            },
-    
-            {
-                id: 79,
-                title: 'Error 404',
-                link: '/ErrorPage'
-            },
-            
+                title: 'News',
+                link: '/NewsPage'
+            }
         ]
     },
 
     {
         id: 5,
         title: 'Volunteer',
-        link: '/BlogPage',
+        link: '/VolunteerPage',
         submenu: [
             {
                 id: 51,
-                title: 'Blog',
-                link: '/BlogPage'
+                title: 'Volunteer',
+                link: '/VolunteerPage'
             },
             {
                 id: 52,
-                title: 'Blog Left sidebar',
-                link: '/BlogPageLeft'
+                title: 'Mentor',
+                link: '/MentorPage'
             },
             {
                 id: 53,
-                title: 'Blog full width',
-                link: '/BlogPageFullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/BlogDetails'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/BlogDetailsLeftSiide'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/BlogDetailsFull'
-            },
+                title: 'Intern',
+                link: '/InternPage'
+            }
         ]
     },
     {

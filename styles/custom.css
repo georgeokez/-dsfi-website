@@ -7,4 +7,7 @@
     .hide-section {
         display: none;
     }
+     .slide-subtitle {
+        width: 280px;
+    }
 }
