@@ -35,7 +35,7 @@ const Footer = (props) =>{
                             </div>
                             <div className="news-wrap">
                                 <div className="news-img">
-                                    <img src='images/footer/mental-health.png' alt=""/>
+                                    <img src='images/footer/mental_health_small.jpeg' alt=""/>
                                 </div>
                                 <div className="news-text">
                                     <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Importance of mental health awareness</a></Link></h3>

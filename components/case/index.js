@@ -23,35 +23,35 @@ const CaseSlide = (props) => {
                     <div className="wpo-case-slider">
                         <Slider {...sliderSettings}>
                             <CauseCard
-                                title="Providing Housing Assistance to Individauls and Families"
+                                title="Domestic Violence Awareness"
                                 raisedValue="7,500"
                                 goalValue="15,000"
                                 progressValue={65.5}
-                                imageUrl="images/case/social-Housing.jpeg"
+                                imageUrl="images/case/rsz_1domestic_violence.jpeg"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
-                                title="Providing Legal Assistance to Individauls and Families"
+                                title="Conflict Resolution Awareness"
                                 raisedValue="6,500"
                                 goalValue="12,000"
                                 progressValue={50.5}
-                                imageUrl="images/case/legal-assistance.png"
+                                imageUrl="images/case/rsz_counseling_support.jpeg"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
-                                title="Providing Counseling and Support to People"
+                                title="Youth Empowerment"
                                 raisedValue="9,000"
                                 goalValue="20,000"
                                 progressValue={48.5}
-                                imageUrl="images/case/counseling_n_support.png"
+                                imageUrl="images/case/rsz_2empowerment.jpeg"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
-                                title="Promoting mental health awareness in communities"
+                                title="Mental Health Awareness"
                                 raisedValue="13,000"
                                 goalValue="25,000"
                                 progressValue={52.0}
-                                imageUrl="images/case/mental-health.png"
+                                imageUrl="images/case/rsz_mental_health.jpeg"
                                 clickHandler={clickHandler}
                             />
                         </Slider>

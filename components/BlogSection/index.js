@@ -19,7 +19,7 @@ const BlogSection = (props) => {
                             tagTitle="Housing"
                             title="Getting a secure and safe environment for your family"
                             writer="Nashante"
-                            imageUrl="images/case/social-Housing.jpeg"
+                            imageUrl="images/case/rsz_1secure_housing.jpeg"
                             commentCount={4}
                         />
                         <BlogCard
@@ -33,7 +33,7 @@ const BlogSection = (props) => {
                             tagTitle="Mental Health"
                             title="The importance of mental health awareness"
                             writer="Angel"
-                            imageUrl="images/case/mental-health.png"
+                            imageUrl="images/case/rsz_mental_health.jpeg"
                             commentCount={12}
                         />
                     </div>

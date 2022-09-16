@@ -47,7 +47,7 @@ const About = (props) => {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
                             {/* <img src='images/about3.png' alt=""/> */}
-                            <img src="images/hero/hero-pic-3.jpeg" alt=""/>
+                            <img src="images/hero/Mission_n_Vision.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
