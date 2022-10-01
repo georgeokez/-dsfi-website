@@ -15,7 +15,7 @@ const TeamSection = (props) => {
                 <div className="row">
                     <TeamMember name="Angel Akinwale" position="Founder, President & CEO" imageUrl="images/team/Angel_Akinwale.png" />
                     <TeamMember name="Abraham Akinwale" position="Vise President & Treasurer" imageUrl="images/team/Abraham_Akinwale.png" />
-                    <TeamMember name="Nyah Young" position="Director" imageUrl="images/team/Nyah_new_team.png" />
+                    <TeamMember name="Caryne Akinwande" position="Director" imageUrl="images/team/team-3.jpg" />
                 </div>
             </div>
         </div>

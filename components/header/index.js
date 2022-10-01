@@ -27,7 +27,6 @@ const Header = () => {
                             <li><Link href="/Partnership" title="">Partnership</Link></li>
                             <li><Link href="/Resources" title="">Resources</Link>
                                 <ul>
-                                    <li><Link href="/Health Policy" title="">Health Policy</Link></li>
                                     <li><Link href="/Housing Assistance" title="">Housing Assistance</Link></li>
                                     <li><Link href="/Legal Assistance" title="">Legal Assistance</Link></li>
                                 </ul>

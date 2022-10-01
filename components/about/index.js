@@ -1,7 +1,10 @@
 import VideoModal from '../ModalVideo'
 import Link from 'next/link'
+import Header from './Header';
+import ListItem from './ListItem';
+import { visions, coreValues } from '../utils/contents';
 
-const About = (props) => {
+const About = () => {
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
      }
@@ -11,24 +14,24 @@ const About = (props) => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
-                            <div className="wpo-section-title">
-                                <h2>Our Vision and Mission</h2>
+                            {/* <Header title="Mission, Vision and Core Values" /> */}
+                            <h4>Mission</h4>
+                            <p>
+                                Serving our community with faith and love. Philippians 4:13 - I can do all 
+                                things through Christ who strengthens me.
+                            </p>
+                            <h4>Vision</h4>
+                            <p>
+                                Our vision is to...
+                                <ListItem items={visions} />
+                            </p>
+                            <h4>Core Values</h4>
+                            <div className="core-values">
+                                <ListItem items={coreValues.filter((value, index) => index < 3)}/>
+                                <ListItem items={coreValues.filter((value, index) => index >= 3 & index < 6)}/>
+                                <ListItem items={coreValues.filter((value, index) => index >= 6 & index < coreValues.length)}/>
                             </div>
-                            <h3>Vision</h3>
-                            <p>
-                                Our vision is to be the leading faith-based non-profit organization in the Washington, D.C. metropolitan area providing communal 
-                                resources and services supporting individuals and families suffering/suffered from domestic violence. To be the leading non-profit 
-                                organization promoting and supporting mental health, mental awareness, enrichment and conflict resolution, while promoting self-love, 
-                                self-care and self-awareness through enrichment programs for individuals and families. To be the leading non-profit organization providing 
-                                the necessary tools needed to discover individuals’ identity. To be the leading non-profit organization to assist individuals and families in 
-                                developing major foundations that will lead them to living a healthier and stable lifestyle. 
-                            </p>
-                            <h3>Mission</h3>
-                            <p>
-                                To provide assistance, resources, tools and enrichment to individuals and families that require assistance in healing their lives, enhancing 
-                                their lives, self-esteem and self-confidence building, self-love and self-care management, encouragement to speak out, character building and 
-                                foundational development that will assist in enhancing their lives.
-                            </p>
+                           
                             <div className="btns">
                                 <Link href="/DonatePage">
                                         <a  className="theme-btn" onClick={ClickHandler}>Donate Now</a>
