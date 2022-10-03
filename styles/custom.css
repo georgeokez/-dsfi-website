@@ -15,6 +15,28 @@
     gap: 0;
 }
 
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    padding-top: 80px;
+    width: 50%;
+}
+
+.partner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-content {
+    padding: 80px 0;
+    width: 50%;
+}
+
 
 @media (max-width: 767px) {
     .hide-section {

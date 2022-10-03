@@ -10,13 +10,15 @@ import TeamSection from '../../components/team'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import MetaHead from '../../components/MetaHead';
+import AboutContent from '../../components/about/AboutContent';
 
 const CasePage =() => {
     return(
         <Fragment>
             <MetaHead />
             <Header/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
+            <PageTitle pageTitle={'About Us'} pagesub={'About'}/>
+            <AboutContent />
             <VedioCta/>
             <Mission subclass={'section-padding'}/>
             <About/>
