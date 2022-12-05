@@ -13,7 +13,7 @@ import Scrollbar from '../../components/scrollbar';
 import MetaHead from '../../components/MetaHead';
 import AboutContent from '../../components/about/AboutContent';
 
-const CasePage =() => {
+const AboutPage =() => {
     return(
         <Fragment>
             <MetaHead />
@@ -32,4 +32,4 @@ const CasePage =() => {
         </Fragment>
     )
 };
-export default CasePage;
+export default AboutPage;
