@@ -1955,8 +1955,8 @@ hero-style3
 .wpo-about-img-3 {
   width: 165%;
   position: relative;
-  right: -34px;
-  top: 50px;
+  right: -10px;
+  top: 100px;
 }
 
 @media (max-width: 1200px) {

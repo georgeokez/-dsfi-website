@@ -37,6 +37,32 @@
     width: 50%;
 }
 
+.addon-wrapper {
+    padding: 100px 0;
+}
+
+.addon-wrapper-item-gray {
+    background-color: #f7fbfe;
+    padding: 100px 0;
+}
+
+.addon-wrapper-item-white {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.about-add-ons-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about-add-ons-item {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 @media (max-width: 767px) {
     .hide-section {

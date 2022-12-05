@@ -1,11 +1,12 @@
 import React from 'react';
-import { aboutContent } from '../utils/contents';
+import { aboutContentOne, aboutContentTwo } from '../utils/contents';
 
 const AboutContent = () => {
   return (
     <div className="about-container">
         <div className="about-content">
-            {aboutContent}
+          <p>{aboutContentOne}</p>
+          <p>{aboutContentTwo}</p>          
         </div>       
     </div>
   )
