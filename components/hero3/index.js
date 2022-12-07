@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import { paymentLink } from '../utils/contents';
 
-const Hero3 = (props) => {
+const Hero3 = () => {
 
     return(
         <section className="hero hero-style-3">
@@ -17,7 +18,7 @@ const Hero3 = (props) => {
                                     <p>You Can Satisfied Yourself By Helping.</p>
                                 </div>
                                 <div className="btns">
-                                    <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
+                                    <a className="theme-btn" href={paymentLink} target="_blank">Donate Now</a>
                                 </div>
                             </div>
                         </div>

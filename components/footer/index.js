@@ -1,12 +1,14 @@
-import React from 'react'
-import Link from 'next/link'
-import Newsletter from '../Newsletter'
+import React from 'react';
+import Link from 'next/link';
+import Newsletter from '../Newsletter';
+import { missionStatement, contactDetials } from '../utils/contents';
 
-const Footer = (props) =>{
+const Footer = () =>{
+  const { email, mailing, phone } = contactDetials;
 
-    const ClickHandler = () =>{
-        window.scrollTo(10, 0);
-     }
+  const ClickHandler = () =>{
+    window.scrollTo(10, 0);
+  }
 
   return(
     <footer className="wpo-site-footer">
@@ -19,7 +21,7 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <img src='images/dsfi_logo_white_text.png' alt=""/>
                             </div>
-                            <p>Serving our community with faith and love. Philippians 4:13 - I can do all things through Christ who strengthens me.</p>
+                            <p>{missionStatement}</p>
                             <ul>
                                 <li><Link onClick={ClickHandler} href="/"><a><i className="ti-facebook"></i></a></Link></li>
                                 <li><Link onClick={ClickHandler} href="/"><a><i className="ti-twitter-alt"></i></a></Link></li>
@@ -75,9 +77,9 @@ const Footer = (props) =>{
                             <p>In search of assistance, healing, resources, tools, self care and self love management, reach out.</p>
                             <div className="contact-ft">
                                 <ul>
-                                    <li><i className="fi flaticon-pin"></i>28 Park, Washington, D.C., USA</li>
-                                    <li><i className="fi flaticon-call"></i>+1 304 445-9870</li>
-                                    <li><i className="fi flaticon-envelope"></i>info-dsfi@gmail.com</li>
+                                    <li><i className="fi flaticon-pin"></i>{mailing}</li>
+                                    <li><i className="fi flaticon-call"></i>{phone}</li>
+                                    <li><i className="fi flaticon-envelope"></i>{email}</li>
                                 </ul>
                             </div>
                         </div>

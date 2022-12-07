@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { paymentLink } from '../utils/contents';
 
 const Hero2 = (props) => {
 
@@ -17,7 +18,7 @@ const Hero2 = (props) => {
                                     <p>And we provide case management services to communities that share in our mission and vision to help Individuals and families.</p>
                                 </div>
                                 <div className="btns">
-                                    <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
+                                    <a className="theme-btn" href={paymentLink} target="_blank">Donate Now</a>
                                 </div>
                             </div>
                         </div>

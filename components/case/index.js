@@ -27,7 +27,7 @@ const CaseSlide = (props) => {
                                 raisedValue="7,500"
                                 goalValue="15,000"
                                 progressValue={65.5}
-                                imageUrl="images/case/rsz_1domestic_violence.jpeg"
+                                imageUrl="/images/case/rsz_domestic_violence.png"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
@@ -35,7 +35,7 @@ const CaseSlide = (props) => {
                                 raisedValue="6,500"
                                 goalValue="12,000"
                                 progressValue={50.5}
-                                imageUrl="images/case/rsz_counseling_support.jpeg"
+                                imageUrl="/images/case/rsz_conflict_resolution.png"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
@@ -43,7 +43,7 @@ const CaseSlide = (props) => {
                                 raisedValue="9,000"
                                 goalValue="20,000"
                                 progressValue={48.5}
-                                imageUrl="images/case/rsz_2empowerment.jpeg"
+                                imageUrl="/images/case/rsz_youth_empowerment.png"
                                 clickHandler={clickHandler}
                             />
                             <CauseCard
@@ -51,7 +51,7 @@ const CaseSlide = (props) => {
                                 raisedValue="13,000"
                                 goalValue="25,000"
                                 progressValue={52.0}
-                                imageUrl="images/case/rsz_mental_health.jpeg"
+                                imageUrl="/images/case/rsz_mental_health.jpeg"
                                 clickHandler={clickHandler}
                             />
                         </Slider>

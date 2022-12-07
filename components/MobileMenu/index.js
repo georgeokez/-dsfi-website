@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Collapse, CardBody, Card } from 'reactstrap';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const menus = [
     {
@@ -18,7 +18,7 @@ const menus = [
     {
         id: 3,
             title: 'Partnership',
-            link: '/CasePage',
+            link: '/Partnership',
     },
     
     {

@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from "next/link";
+import { paymentLink } from '../utils/contents';
 
 const CauseCard = ({ title, raisedValue, goalValue, progressValue, imageUrl, clickHandler }) => {
+  const url =  '/CaseSinglePage/' + title.split(' ').join('');
   return (
     <div className="wpo-case-single">
         <div className="wpo-case-item">
@@ -28,14 +30,12 @@ const CauseCard = ({ title, raisedValue, goalValue, progressValue, imageUrl, cli
                 <div className="case-btn">
                     <ul>
                         <li>
-                            <Link onClick={clickHandler} href="/CaseSinglePage">
+                            <Link href={url}>
                                 <a href="/DonatePage">Learn More</a> 
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={clickHandler} href="/DonatePage">
-                                <a>Donate Now</a>
-                            </Link>
+                            <a href={paymentLink} target="_blank">Donate Now</a>
                         </li>
                     </ul>
                 </div>

@@ -2,7 +2,7 @@ import VideoModal from '../ModalVideo'
 import Link from 'next/link'
 import Header from './Header';
 import ListItem from './ListItem';
-import { visions, coreValues, missions } from '../utils/contents';
+import { visions, coreValues, missionStatement } from '../utils/contents';
 
 const About = () => {
     const ClickHandler = () =>{
@@ -16,10 +16,7 @@ const About = () => {
                         <div className="wpo-about-text">
                             {/* <Header title="Mission, Vision and Core Values" /> */}
                             <h4>Mission Statement</h4>
-                            <p>
-                                Serving our community with faith and love. Philippians 4:13 - I can do all 
-                                things through Christ who strengthens me.
-                            </p>
+                            <p>{missionStatement}</p>
                             <h4>Vision</h4>
                             <p>
                                 Our vision is to...
