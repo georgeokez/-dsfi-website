@@ -83,6 +83,24 @@ export const domesticViolenceCauseContext = {
     purpose: "To provide statistics generating awareness surrounding domestic violence (DV). To generate transparency while educating the community on enhancing their cognizant abilities to identify red flags or warning signs for themselves, friends and loved ones, that could potentially result in a DV situation. Personal testimonials from DV survivors will be shared, along with lectures by professional mental health providers and advocates. This will assist individuals suffering in silence to realize that they are not alone. That it is OK to speak out and seek help. That there is light at the end of the tunnel. That domestic violence is not the bane of their existence. Those lives do not have to end to domestic violence."
 }
 
+export const volunteerContext = {
+    paragraphOne: "DSF, Inc. authentically welcomes innovative, dynamic and passionate volunteers (a person who willingly accepts or expresses a willingness to commence a service) that fully understand the meaning of service and service leadership. Volunteers must have full understanding that dedicated and productive service is the foundation of non-profit organizations. All volunteers must be willing to serve our community (Maryland and Washington, D.C.) with Faith, Hope and Love. Volunteers must be skilled in the area chosen to assist DSF, Inc.",
+    volunteersNeeded: [
+        "Case Managers",
+        "Research Analysists",
+        "Media Support Specialist",
+        "Counselors",
+        "Therapist",
+        "Advisors",
+        "Administrative Support",
+        "Life Coaches",
+        "Advocates (Domestic Violence, Mental Health, personal development, and Conflict Resolution)",
+        "Paralegals/Attorneys"
+    ],
+    paragraphTwo: "If you are interested in becoming a volunteer with DSF, Inc., please kindly fill out this form:  ",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScHusQypQlN6kt6nlmFLYOAmkKtqle7HvAiU9-iGNnyJZGP3w/viewform",
+}
+
 export const contactDetials = {
     email: 'info.dsfinc@gmail.com',
     phone: '(301) 597-8367',

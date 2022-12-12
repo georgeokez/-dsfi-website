@@ -4,3 +4,5 @@ export const domesticViolenceImageUrl = baseImageUrl + 'domestic_violence.png';
 export const conflictResolutionImageUrl = baseImageUrl + 'conflict_resolution.png';
 export const mentalHealthImageUrl = baseImageUrl + 'Mental_Health.jpg';
 
+export const wrappedDefaultImageUrl = '/images/volunteer-image.png';
+

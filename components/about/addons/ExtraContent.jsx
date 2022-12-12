@@ -1,5 +1,5 @@
 import React from 'react';
-import ListItem from '../ListItem';
+import ListItem from '../../common/ListItem';
 
 const ExtraContent = ({content, items}) => {
   return (

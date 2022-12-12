@@ -1,7 +1,7 @@
 import VideoModal from '../ModalVideo'
 import Link from 'next/link'
 import Header from './Header';
-import ListItem from './ListItem';
+import ListItem from '../common/ListItem';
 import { visions, coreValues, missionStatement } from '../utils/contents';
 
 const About = () => {
