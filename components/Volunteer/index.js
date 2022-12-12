@@ -21,7 +21,6 @@ const Volunteer = () =>  {
                     <p>{paragraphTwo}</p><a href={formLink} target="_blank" alt="volunteer-link">Link to Volunter Form</a>
                 </div>            
             </div>            
-            {/* <TeamSection/>   */}
         </div>
         
     )
