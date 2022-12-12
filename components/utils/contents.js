@@ -13,7 +13,7 @@ export const coreValues = [
     "Integrity",
     "Serving Others",
     "Hospitality",
-    "Unity", 
+    "Unity",
     "The Love of People",
     "Enriching Lives",
     "Faith"
@@ -84,7 +84,7 @@ export const domesticViolenceCauseContext = {
 }
 
 export const contactDetials = {
-    email: 'info-dsfinc@gmail.com',
+    email: 'info.dsfinc@gmail.com',
     phone: '(301) 597-8367',
     fax: '(240) 414-4794',
     mailing: 'PO Box 1170 Temple Hills, MD 20757'
