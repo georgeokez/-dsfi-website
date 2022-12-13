@@ -27,7 +27,7 @@ const HomePage =() => {
             <CounterSection/>
             <TeamSection/>
             <WorldSection/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

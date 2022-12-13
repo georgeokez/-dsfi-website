@@ -9,7 +9,7 @@ const WorldSection = (props) => {
         <div className={`wpo-world-area ${props.worldclass}`}>
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 pb100">
                         <div className="wpo-world-section">
                             <h2>Join us and together we'll serve our commnuity with love & faith</h2>
                             <Link onClick={ClickHandler} href="/VolunteerPage"><a><img src='images/team/1.png' alt=""/>   Become A Volunteer</a></Link>

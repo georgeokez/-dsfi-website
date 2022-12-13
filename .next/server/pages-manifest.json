@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/VolunteerPage": "pages/VolunteerPage.js",
-  "/Partnership": "pages/Partnership.js",
+  "/AboutPage": "pages/AboutPage.js",
   "/": "pages/index.js"
 }

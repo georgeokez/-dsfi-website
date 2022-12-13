@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Newsletter from '../Newsletter';
-import { missionStatement, contactDetials } from '../utils/contents';
+import { missionStatement, contactDetials, socialMediaLinks } from '../utils/contents';
 
 const Footer = () =>{
   const { email, mailing, phone } = contactDetials;
@@ -23,34 +23,32 @@ const Footer = () =>{
                             </div>
                             <p>{missionStatement}</p>
                             <ul>
-                                <li><Link onClick={ClickHandler} href="/"><a><i className="ti-facebook"></i></a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><a><i className="ti-twitter-alt"></i></a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><a><i className="ti-instagram"></i></a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/"><a><i className="ti-google"></i></a></Link></li>
+                                <li><a href={socialMediaLinks.facebook} target="_blank" alt="Facebook Link"><i className="ti-facebook"></i></a></li>
+                                <li><a href={socialMediaLinks.twitter} target="_blank" alt="Twitter Link"><i className="ti-twitter-alt"></i></a></li>
+                                <li><a href={socialMediaLinks.instagram} target="_blank" alt="Instagram Link"><i className="ti-instagram"></i></a></li>
+                                <li><a href={socialMediaLinks.youTube} target="_blank" alt="YouTube Link"><i className="ti-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget resource-widget" style={{paddingTop: '15px'}}>
                             <div className="widget-title">
-                                <h3>Top News</h3>
+                                <h3>Our Causes</h3>
                             </div>
                             <div className="news-wrap">
                                 <div className="news-img">
-                                    <img src='images/footer/mental_health_small.jpeg' alt=""/>
+                                    <img src='/images/footer/mental_health_small.jpeg' alt=""/>
                                 </div>
                                 <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Importance of mental health awareness</a></Link></h3>
-                                    <span>16 May, 2022</span>
+                                    <h3><Link onClick={ClickHandler} href="/CaseSinglePage/MentalHealthAwareness"><a>Mental Health Awareness</a></Link></h3>
                                 </div>
                             </div>
                             <div className="news-wrap">
                                 <div className="news-img">
-                                    <img src='images/footer/legal-assistance.png' alt=""/>
+                                    <img src='/images/footer/domestic_violence_smaller.png' alt=""/>
                                 </div>
                                 <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Knowing how to get Legal Help</a></Link></h3>
-                                    <span>18 Jun, 2022</span>
+                                    <h3><Link onClick={ClickHandler} href="/CaseSinglePage/DomesticViolenceAwareness"><a>Domestic Violence Awareness</a></Link></h3>
                                 </div>
                             </div>
                         </div>
@@ -62,10 +60,10 @@ const Footer = () =>{
                             </div>
                             <ul>
                                 <li><Link onClick={ClickHandler} href="/AboutPage"><a>About Us</a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/CasePage"><a>Our Causes</a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/CasePage"><a>Our Mission</a></Link></li>
+                                <li><Link onClick={ClickHandler} href="/CaseSinglePage/MentalHealthAwareness"><a>Our Causes</a></Link></li>
+                                <li><Link onClick={ClickHandler} href="/Partnership"><a>Partnership</a></Link></li>
+                                <li><Link onClick={ClickHandler} href="/VolunteerPage"><a>Volunteer</a></Link></li>
                                 <li><Link onClick={ClickHandler} href="/ContactPage"><a>Contact Us</a></Link></li>
-                                <li><Link onClick={ClickHandler} href="/EventPage"><a>Our Event</a></Link></li>
                             </ul>
                         </div>
                     </div>

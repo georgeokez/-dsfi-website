@@ -24,13 +24,8 @@ const menus = [
     {
         id: 4,
             title: 'Resources',
-            link: '/EventPage',
+            link: '/HousingAssistance',
             submenu: [
-                {
-                    id: 41,
-                    title: 'Health Policy',
-                    link: '/HealthPolicy'
-                },
                 {
                     id: 42,
                     title: 'Housing Assistance',
@@ -42,23 +37,6 @@ const menus = [
                     link: '/LegalAssistance'
                 }
             ]
-    },
-    {
-        id: 7,
-        title: 'Event',
-        link: '/EventPage',
-        submenu: [
-            {
-                id: 71,
-                title: 'Event',
-                link: '/EventPage'
-            },
-            {
-                id: 75,
-                title: 'News',
-                link: '/NewsPage'
-            }
-        ]
     },
 
     {
@@ -85,7 +63,7 @@ const menus = [
     },
     {
         id: 88,
-        title: 'Contact',
+        title: 'Contact Us',
         link: '/ContactPage',
     }
     

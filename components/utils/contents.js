@@ -97,7 +97,13 @@ export const volunteerContext = {
         "Advocates (Domestic Violence, Mental Health, personal development, and Conflict Resolution)",
         "Paralegals/Attorneys"
     ],
+    mentorsNeeded: [
+        "Advisors",
+        "Counselors",
+        "Therapists"
+    ],
     paragraphTwo: "If you are interested in becoming a volunteer with DSF, Inc., please kindly fill out this form:  ",
+    mentorParagraphFooter: "If you are interested in becoming an intern with DSF, Inc., please email your resume to info.DSF, Inc.nc@gmail.com and include the position you wish to apply for in the subject line. ",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLScHusQypQlN6kt6nlmFLYOAmkKtqle7HvAiU9-iGNnyJZGP3w/viewform",
 }
 
@@ -109,10 +115,19 @@ export const contactDetials = {
 }
 
 export const socialAccounts = {
+    instagram: 'divine_services_foundations',
     twitter: '@DSF_Inc',
     facebook: 'Divine Services & Foundations, Inc',
     linkedIn: 'Divine Services Foundations, Inc',
     youTube: 'Divine Services & Foundations, Inc'
+}
+
+export const socialMediaLinks = {
+    instagram: 'https://www.instagram.com/divine_services_foundations/',
+    twitter: 'https://twitter.com/DSF_Inc',
+    facebook: 'https://www.facebook.com/profile.php?id=100085628889485',
+    youTube: 'https://www.youtube.com/@divineservicesfoundationsi8944',
+    linkedIn: 'https://www.linkedin.com/in/divine-services-foundations-inc-3224b8252/',
 }
 
 export const paymentLink = 'https://www.paypal.com/donate/?hosted_button_id=BDJJK4PD94UJ8';

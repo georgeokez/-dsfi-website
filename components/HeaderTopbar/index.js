@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { contactDetials, paymentLink } from '../utils/contents';
+import { contactDetials, paymentLink, socialMediaLinks } from '../utils/contents';
 
 const HeaderTopbar = () => {
     const { email, phone } = contactDetials;
@@ -21,9 +21,9 @@ const HeaderTopbar = () => {
                             <ul>
                                 <li className="header-menu-socials">
                                     <span>Follow Us: </span>
-                                    <Link href="/"><a><i className="ti-facebook"></i></a></Link>
-                                    <Link href="/"><a><i className="ti-twitter-alt"></i></a></Link>
-                                    <Link href="/"><a><i className="ti-instagram"></i></a></Link>
+                                    <a href={socialMediaLinks.facebook} target="_blank" alt="Facebook Link"><i className="ti-facebook"></i></a>
+                                    <a href={socialMediaLinks.twitter} target="_blank" alt="Twitter Link"><i className="ti-twitter-alt"></i></a>
+                                    <a href={socialMediaLinks.instagram} target="_blank" alt="Instagram Link"><i className="ti-instagram"></i></a>
                                 </li>
                                 <li><Link href="/ContactPage" title="">Contact Us</Link></li>                              
                                 <li><a className="theme-btn" href={paymentLink} target="_blank">Donate Now</a></li>

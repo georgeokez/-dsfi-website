@@ -25,16 +25,10 @@ const Header = () => {
                             <li><Link className="active" href="/" title="">Home</Link></li>
                             <li><Link href="/AboutPage" title="">About</Link></li>
                             <li><Link href="/Partnership" title="">Partnership</Link></li>
-                            <li><Link href="/Resources" title="">Resources</Link>
+                            <li><Link href="/HousingAssistance" title="">Resources</Link>
                                 <ul>
                                     <li><Link href="/HousingAssistance" title="">Housing Assistance</Link></li>
                                     <li><Link href="/LegalAssistance" title="">Legal Assistance</Link></li>
-                                </ul>
-                            </li>
-                            <li><Link href="/EventPage" title="">Event</Link>
-                                <ul>
-                                    <li><Link href="/Events" title="">Event</Link></li>
-                                    <li><Link href="/News" title="">News</Link></li>
                                 </ul>
                             </li>
                             <li><Link href="/VolunteerPage" title="">Volunteer</Link>

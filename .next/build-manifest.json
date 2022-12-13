@@ -19,15 +19,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/index.js"
     ],
-    "/Partnership": [
+    "/AboutPage": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Partnership.js"
-    ],
-    "/VolunteerPage": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/VolunteerPage.js"
+      "static/chunks/pages/AboutPage.js"
     ],
     "/_app": [
       "static/chunks/main.js",
