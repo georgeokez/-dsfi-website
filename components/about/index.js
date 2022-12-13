@@ -46,7 +46,7 @@ const About = () => {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-img-3">
                             {/* <img src='images/about3.png' alt=""/> */}
-                            <img src="images/hero/Mission_n_Vision.jpg" alt=""/>
+                            <img src="/images/hero/Mission_n_Vision.jpg" alt="about image"/>
                         </div>
                     </div>
                 </div>

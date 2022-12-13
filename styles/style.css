@@ -1251,7 +1251,8 @@ hero-style-1
 
 .hero-style-1 {
   /*background: url("../public/images/hero/hero-pic-2.jpeg") no-repeat center center / */
-  background: url("../public/images/hero/BelievePromoting.jpg") no-repeat center center /
+  /* background: url("../public/images/hero/BelievePromoting.jpg") no-repeat center center / */
+  background: url("../public/images/hero/Mission_n_Vision.jpg") no-repeat center center /
     cover;
 }
 .hero-style-3 {

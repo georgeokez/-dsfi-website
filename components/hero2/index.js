@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { paymentLink } from '../utils/contents';
 
 const Hero2 = (props) => {
@@ -27,7 +26,7 @@ const Hero2 = (props) => {
                     </div>  
                 </div>
             </div>
-    </section>
+        </section>
     )
 }
 

@@ -19,7 +19,8 @@ const Footer = () =>{
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget about-widget">
                             <div className="logo widget-title">
-                                <img src='images/dsfi_logo_white_text.png' alt=""/>
+                                {/* <img src='images/dsfi_logo_white_text.png' alt=""/> */}
+                                <img src='/images/logo/dsf_new_logo.png' alt="logo image"/>
                             </div>
                             <p>{missionStatement}</p>
                             <ul>
