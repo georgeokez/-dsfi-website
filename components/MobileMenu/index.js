@@ -1,134 +1,155 @@
-import React, { Component } from 'react'
-import { Collapse, CardBody, Card } from 'reactstrap';
-import Link from 'next/link';
+import React, { useEffect, useState, useRef } from "react";
+import { Collapse, CardBody, Card } from "reactstrap";
+import Link from "next/link";
 
 const menus = [
-    {
-        id: 1,
-        title: 'Home',
-        link: '/',
-    },
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+  },
 
-    {
-        id: 2,
-        title: 'About',
-        link: '/AboutPage',
-    },
+  {
+    id: 2,
+    title: "About",
+    link: "/AboutPage",
+  },
 
-    {
-        id: 3,
-            title: 'Partnership',
-            link: '/Partnership',
-    },
-    
-    {
-        id: 4,
-            title: 'Resources',
-            link: '/HousingAssistance',
-            submenu: [
-                {
-                    id: 42,
-                    title: 'Housing Assistance',
-                    link: '/HousingAssistance'
-                },
-                {
-                    id: 43,
-                    title: 'Legal Assistance',
-                    link: '/LegalAssistance'
-                }
-            ]
-    },
+  {
+    id: 3,
+    title: "Partnership",
+    link: "/Partnership",
+  },
 
-    {
-        id: 5,
-        title: 'Volunteer',
-        link: '/VolunteerPage',
-        submenu: [
-            {
-                id: 51,
-                title: 'Volunteer',
-                link: '/VolunteerPage'
-            },
-            {
-                id: 52,
-                title: 'Mentor',
-                link: '/MentorPage'
-            },
-            {
-                id: 53,
-                title: 'Intern',
-                link: '/InternPage'
-            }
-        ]
-    },
-    {
-        id: 88,
-        title: 'Contact Us',
-        link: '/ContactPage',
-    }
-    
-    
-]
+  {
+    id: 4,
+    title: "Resources",
+    link: "/HousingAssistance",
+    submenu: [
+      {
+        id: 42,
+        title: "Housing Assistance",
+        link: "/HousingAssistance",
+      },
+      {
+        id: 43,
+        title: "Legal Assistance",
+        link: "/LegalAssistance",
+      },
+    ],
+  },
 
+  {
+    id: 5,
+    title: "Volunteer",
+    link: "/VolunteerPage",
+    submenu: [
+      {
+        id: 51,
+        title: "Volunteer",
+        link: "/VolunteerPage",
+      },
+      {
+        id: 52,
+        title: "Mentor",
+        link: "/Mentor",
+      },
+      {
+        id: 53,
+        title: "Intern",
+        link: "/Intern",
+      },
+    ],
+  },
+  {
+    id: 88,
+    title: "Contact Us",
+    link: "/ContactPage",
+  },
+];
 
-export default class MobileMenu extends Component {
+const MobileMenu = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(0);
+  const containerRef = useRef();
 
-    state = {
-        isMenuShow: false,
-        isOpen: 0,
-    }
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      if (
+        showMenu &&
+        containerRef.current &&
+        !containerRef.current.contains(e.target)
+      ) {
+        setShowMenu((prevValue) => !prevValue);
+      }
+    };
 
-    menuHandler = () => {
-        this.setState({
-            isMenuShow: !this.state.isMenuShow
-        })
-    }
+    document.addEventListener("mousedown", checkIfClickedOutside);
 
-    setIsOpen = id => () => {
-        this.setState({
-            isOpen: id === this.state.isOpen ? 0 : id
-        })
-    }
+    return () => {
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [showMenu]);
 
-    render() {
+  const handleShowMenu = () => {
+    setShowMenu((prevValue) => !prevValue);
+  };
 
-        const { isMenuShow, isOpen } = this.state;
+  const handleIsOpen = (id) => () => {
+    setIsOpen((prevValue) => {
+      return id === prevValue ? 0 : id;
+    });
+  };
 
-        return (
-            <div>
-                <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
-                    {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
+  return (
+    <div ref={containerRef}>
+      <div className={`mobileMenu ${showMenu ? "show" : ""}`}>
+        <ul className="responsivemenu">
+          {menus.map((item) => {
+            return (
+              <li key={item.id}>
+                {item.submenu ? (
+                  <p onClick={handleIsOpen(item.id)}>
+                    {item.title}
+                    {item.submenu ? (
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
+                    ) : (
+                      ""
+                    )}
+                  </p>
+                ) : (
+                  <Link href={item.link}>{item.title}</Link>
+                )}
+                {item.submenu ? (
+                  <Collapse isOpen={item.id === isOpen}>
+                    <Card>
+                      <CardBody>
+                        <ul>
+                          {item.submenu.map((submenu) => (
+                            <li key={submenu.id}>
+                              <Link className="active" href={submenu.link}>
+                                {submenu.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                ) : (
+                  ""
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
 
-                    <ul className="responsivemenu">
-                        {menus.map(item => {
-                            return (
-                                <li key={item.id}>
-                                    {item.submenu ? <p onClick={this.setIsOpen(item.id)}>
-                                        {item.title}
-                                        {item.submenu ? <i className="fa fa-angle-right" aria-hidden="true"></i> : ''}
-                                    </p> : <Link href={item.link}>{item.title}</Link>}
-                                    {item.submenu ?
-                                    <Collapse isOpen={item.id === isOpen}>
-                                        <Card>
-                                            <CardBody>
-                                                <ul>
-                                                    {item.submenu.map(submenu => (
-                                                        <li key={submenu.id}><Link className="active" href={submenu.link}>{submenu.title}</Link></li>
-                                                    ))}
-                                                </ul>
-                                            </CardBody>
-                                        </Card>
-                                    </Collapse>
-                                    : ''}
-                                </li>
-                            )
-                        })}
-                    </ul>
+      <div className="showmenu" onClick={handleShowMenu}>
+        <i className="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+  );
+};
 
-                </div>
-
-                <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>
-            </div>
-        )
-    }
-}
+export default MobileMenu;
