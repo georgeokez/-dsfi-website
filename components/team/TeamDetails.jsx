@@ -1,5 +1,4 @@
 import React from 'react';
-import { addon1, addon2, addon3, addon4 } from '../../components/utils/contents';
 import { teambio } from '../../components/utils/teamBio';
 import TeamContent from './TeamContent';
 
@@ -13,7 +12,7 @@ const TeamDetails = () => {
 
     return (
         <div className="addon-wrapper">
-            <div className="addon-wrapper-item-white" id={generateID(member1.name)}>
+            <div className="addon-wrapper-item-white" style={{paddingTop: 0}} id={generateID(member1.name)}>
                 <div className="about-add-ons-container">
                     <div className="about-add-ons-item">
                         <img src={member1.picture} height="400" width="600" alt=""/> 
@@ -21,15 +20,15 @@ const TeamDetails = () => {
                     </div>
                 </div>
             </div> 
-            <div className="addon-wrapper-item-gray" id={generateID(member2.name)}>
+            <div className="addon-wrapper-item-gray" style={{paddingTop: 50, paddingBottom: 50}} id={generateID(member2.name)}>
                 <div className="about-add-ons-container">
-                    <div className="about-add-ons-item">
+                    <div className="about-add-ons-item adout-add-ons-reverse">
                     <TeamContent memberBio={member2}/>
                         <img src= {member2.picture} height="400" width="500" alt=""/> 
                     </div>
                 </div>
             </div>   
-            <div className="addon-wrapper-item-white" id={generateID(member3.name)}>
+            <div className="addon-wrapper-item-white" style={{paddingTop: 0, paddingBottom: 0}} id={generateID(member3.name)}>
                 <div className="about-add-ons-container">
                     <div className="about-add-ons-item">
                         <img src={member3.picture} height="500" width="500" alt=""/> 

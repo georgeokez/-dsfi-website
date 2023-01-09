@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/TeamPage": "pages/TeamPage.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/CaseSinglePage/[caseId]": "pages/CaseSinglePage/[caseId].js"
 }

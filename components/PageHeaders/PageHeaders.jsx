@@ -4,7 +4,7 @@ import { contactDetials, socialAccounts, socialMediaLinks } from '../utils/conte
 const PageHeader = ({ imageUrl, headerContent }) => {
   return (
       <div className="page-header-container">
-        <img src={imageUrl} height="600" width="800" alt=""/>
+        <div><img src={imageUrl} className="page-header-img" alt=""/></div>
         <div className="page-header-content">
           {headerContent ?
            headerContent : 

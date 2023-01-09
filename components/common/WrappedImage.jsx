@@ -5,7 +5,7 @@ const WrappedImage = ({ imageUrl = defaultImage }) => {
   return (
     <div className="wrapped-image-container">
         <div className="wrapped-image">
-            <img src={imageUrl} alt="wrapped-image" width="700" height="500" />
+            <img src={imageUrl} alt="wrapped-image"/>
         </div>
     </div>
   )

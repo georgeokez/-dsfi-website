@@ -47,6 +47,11 @@
     width: 50%;
 }
 
+.page-header-img {
+    height: 600px;
+    width: 800px;
+}
+
 .partner-container {
     display: flex;
     flex-direction: column;
@@ -103,6 +108,11 @@
     box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
 }
 
+/* .wrapped-img {
+    width: 700px;
+    height: 500px;
+} */
+
 .team-bio-link { 
     color:#add8e6;
     text-decoration: underline;
@@ -119,4 +129,43 @@
      .slide-subtitle {
         width: 280px;
     }
+
+    .about-content {
+        padding: 50px 15px 0 15px;
+        width: 100%;
+    }
+
+    .about-add-ons-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-add-ons-item {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* justify-content: space-between;
+        align-items: center; */
+    }
+
+    .adout-add-ons-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .page-header-content {
+        padding: 60px 0 40px 0;
+        width: 90%;
+        margin: auto 0;
+        font-size: 16px;
+    }
+
+    .page-header-img {
+        height: 350px;
+        width: 370px;
+    }
+
+    /* .wrapped-img {
+        width: 450px;
+        height: 400px;
+    } */
 }

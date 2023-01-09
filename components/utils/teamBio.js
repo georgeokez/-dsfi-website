@@ -19,7 +19,7 @@ export const teambio = {
       "Abraham is a recent alumnus of the International Space University where he participated in the Space Studies Program 2019. He was the only African out of the 127 delegates from 37 countries around the world. He was part of the SGAC Delegate for the 56th Session of the Scientific and Technical Subcommittee (STSC) of the United Nations Committee for the Peaceful Uses of Outer Space (UN-COPUOS). He is committed to helping build capacity for youths in space science and technology and also promoting open innovations in Africa.",
       "He is currently residing in Fort Washington, Maryland with his wife and children. Abraham is very passionate about his family and spiritual belief system. He enjoys Soccer, cooking and the personal development of others.",
     ],
-    picture: "/images/team/Abraham_Akinwale.png",
+    picture: "/images/team/Abraham_Akinwale_NoBg.png",
   },
 
   member3: {

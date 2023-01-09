@@ -16,7 +16,7 @@ const Header = () => {
                   <a>
                     {/* <img src='images/dsfi-logo-no-bg.png' height={80} alt=""/> */}
                     <img
-                      src="images/logo/dsf_new_logo.png"
+                      src="/images/logo/dsf_new_logo.png"
                       height={80}
                       alt="logo"
                     />

@@ -66,6 +66,7 @@ export const addon4 = {
     "Spiritual Developement",
     "Self-esteem Development",
   ],
+  title4: "DSF, Inc. will provide Case Management Services",
 };
 
 export const aboutContentOne =
