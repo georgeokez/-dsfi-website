@@ -23,16 +23,22 @@ const menus = [
 
   {
     id: 4,
+    title: "Our Team",
+    link: "/TeamPage",
+  },
+
+  {
+    id: 5,
     title: "Resources",
     link: "/HousingAssistance",
     submenu: [
       {
-        id: 42,
+        id: 10,
         title: "Housing Assistance",
         link: "/HousingAssistance",
       },
       {
-        id: 43,
+        id: 11,
         title: "Legal Assistance",
         link: "/LegalAssistance",
       },
@@ -40,29 +46,29 @@ const menus = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Volunteer",
     link: "/VolunteerPage",
     submenu: [
       {
-        id: 51,
+        id: 12,
         title: "Volunteer",
         link: "/VolunteerPage",
       },
       {
-        id: 52,
+        id: 13,
         title: "Mentor",
         link: "/Mentor",
       },
       {
-        id: 53,
+        id: 14,
         title: "Intern",
         link: "/Intern",
       },
     ],
   },
   {
-    id: 88,
+    id: 7,
     title: "Contact Us",
     link: "/ContactPage",
   },

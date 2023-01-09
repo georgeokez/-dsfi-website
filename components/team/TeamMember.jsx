@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link'
 
 const TeamMember = ({name, position, imageUrl, socialLinks}) => {
+  const uniqueNameID = name.split(" ").join("_");
+  const memberHyperLink = `/TeamPage/#${uniqueNameID}`;
 
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
@@ -11,14 +13,11 @@ const TeamMember = ({name, position, imageUrl, socialLinks}) => {
             </div>
             <div className="wpo-team-content">
                 <div className="wpo-team-text-sub">
-                    <h2><Link href="/volunteerPage"><a>{name}</a></Link> </h2>
+                    <h2><Link href={memberHyperLink}><a>{name}</a></Link> </h2>
                     <span>{position}</span>
                     <ul>
-                        <li><Link href="/#"><a><i className="ti-facebook"></i></a></Link></li>
-                        <li><Link href="/#"><a><i className="ti-twitter"></i></a></Link></li>
-                        <li><Link href="/#"><a><i className="ti-google"></i></a></Link></li>
-                        <li><Link href="/#"><a><i className="ti-instagram"></i></a></Link></li>
-                    </ul>
+                        <Link href={memberHyperLink}><a className="team-bio-link">Get to know me</a></Link>
+                    </ul>               
                 </div>
             </div>
         </div>

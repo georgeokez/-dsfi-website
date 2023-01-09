@@ -1,8 +1,12 @@
-const baseImageUrl = '/images/case/';
-export const youthEmpowermentImgUrl = baseImageUrl + 'youth_empowerment.png';
-export const domesticViolenceImageUrl = baseImageUrl + 'domestic_violence.png';
-export const conflictResolutionImageUrl = baseImageUrl + 'conflict_resolution.png';
-export const mentalHealthImageUrl = baseImageUrl + 'Mental_Health.jpg';
+const baseImageUrl = "/images";
+const subImageUrl = "/case/";
+export const youthEmpowermentImgUrl =
+  baseImageUrl + subImageUrl + "youth_empowerment.png";
+export const domesticViolenceImageUrl =
+  baseImageUrl + subImageUrl + "domestic_violence.png";
+export const conflictResolutionImageUrl =
+  baseImageUrl + subImageUrl + "conflict_resolution.png";
+export const mentalHealthImageUrl =
+  baseImageUrl + subImageUrl + "Mental_Health.jpg";
 
-export const wrappedDefaultImageUrl = '/images/volunteer-image.png';
-
+export const wrappedDefaultImageUrl = baseImageUrl + "/volunteer-image.png";
