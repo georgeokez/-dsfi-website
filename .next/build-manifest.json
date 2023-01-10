@@ -14,15 +14,20 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Intern": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Intern.js"
     ],
-    "/CaseSinglePage/[caseId]": [
+    "/Mentor": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/CaseSinglePage/[caseId].js"
+      "static/chunks/pages/Mentor.js"
+    ],
+    "/VolunteerPage": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/VolunteerPage.js"
     ],
     "/_app": [
       "static/chunks/main.js",
