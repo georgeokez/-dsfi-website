@@ -11,6 +11,7 @@ const Footer = () => {
   const { email, mailing, phone } = contactDetials;
   const hyperLinkContact = `tel:+1${phone}`;
   const hyperLinkEmail = `mailto:${email}`;
+  const footerYear = new Date().getFullYear();
 
   const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -190,8 +191,8 @@ const Footer = () => {
           <div className="row">
             <div className="col col-xs-12">
               <p className="copyright">
-                &copy; 2022 Divine Service and Foundation Inc. All rights
-                reserved
+                &copy; {footerYear} Divine Service and Foundation Inc. All
+                rights reserved
               </p>
             </div>
           </div>
