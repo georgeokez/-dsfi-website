@@ -36,7 +36,7 @@ export const addon1 = {
 export const addon2 = {
   content2:
     "We will promote and encourage healing for victims and survivors of Domestic Violence or any other form of abuse (i.e., verbal, physical, emotional, sexual, neglect, etc.). Case management services, advocates, advisors and counselors will assist with the healing process of those suffering individuals.",
-  title2: "DSF, Inc. will provide healing",
+  title2: "DSF, Inc. wil encourage healing",
 };
 
 export const addon3 = {
@@ -70,12 +70,12 @@ export const addon4 = {
 };
 
 export const aboutContentOne =
-  "Divine Services & Foundations, Inc. (DSF, Inc.) is a faith-based non-profit organization designed to provide case management services to Maryland and Washington, D.C., surrounding Domestic Violence, Mental Health, Mental Health Awareness, Conflict Resolution and Enrichment Programs, with a focus on Self-love and Self-Care.";
+  "Divine Services & Foundations, Inc. (DSF, Inc.) is a faith-based non-profit organization designed to provide services and programs to Maryland and Washington, D.C., surrounding Domestic Violence, Mental Health, Mental Health Awareness, Conflict Resolution and Enrichment Programs, with a focus on Self-love and Self-Care.";
 export const aboutContentTwo =
-  "Case Managers will locate Enrichment Programs for Individuals, families and youth that will promote and encourage healing in all aspects in life. Divine Services & Foundations, Inc. will encourage individuals, families, and youth to enhance their knowledge surrounding their spiritual belief system(s) to assist in their personal healing process. Through strategies and Enrichment Programs, these processes will assist in the development of stable foundations in individuals and families’ lives - intended to assist in living their purpose as healthy and purehearted as possible.";
+  "DSF, Inc. will locate Enrichment Programs for Individuals, families and youth that will promote and encourage healing in all aspects in life. Divine Services & Foundations, Inc. will encourage individuals, families, and youth to enhance their knowledge surrounding their spiritual belief system(s) to assist in their personal healing process. Through strategies and Enrichment Programs, these processes will assist in the development of stable foundations in individuals and families’ lives - intended to assist in living their purpose as healthy and purehearted as possible.";
 
 export const partnershipContent =
-  "DSFI’s causes and events are meaningful and significantly impactful in the local community. We are currently in need of professionals in the healthcare profession, specializing in mental health, mental awareness (i.e., therapist, psychologist, psychiatrist, etc.) to partner with us and assist in carrying out our mission. Mental health advocates, educators, lecturers, life coaches, correctional and law enforcement facilities, religious institutions, local politicians, local, national, and international entrepreneurs, DSFI welcomes your partnerships, sponsorships, and donations in support of our causes and events.";
+  "DSF, Inc causes and events are meaningful and significantly impactful in the local community. We are currently in need of professionals in the healthcare profession, specializing in mental health, mental awareness (i.e., therapist, psychologist, psychiatrist, etc.) to partner with us and assist in carrying out our mission. Mental health advocates, educators, lecturers, life coaches, correctional and law enforcement facilities, religious institutions, local politicians, local, national, and international entrepreneurs, DSF, Inc welcomes your partnerships, sponsorships, and donations in support of our causes and events.";
 export const housingContent =
   "Several Domestic Violence victims (individuals and families) are left without shelter due to the severity of the circumstance. DSF, Inc.’s case managers and advocates perform with the utmost dignity when serving the community. Each case needing immediate shelter will be deemed priority and classified as urgent. DSF, Inc.’s case managers and advocates will work diligently in locating secure and safe shelter for families in need. If you or someone you know are a victim of Domestic Violence and currently seeking housing assistance, Take the first (1st) step… BREAK THE SILENCE! Contact DSF, Inc. today for more information on how to obtain housing assistance.";
 export const legalContent =
@@ -117,22 +117,38 @@ export const volunteerContext = {
   paragraphOne:
     "DSF, Inc. authentically welcomes innovative, dynamic and passionate volunteers (a person who willingly accepts or expresses a willingness to commence a service) that fully understand the meaning of service and service leadership. Volunteers must have full understanding that dedicated and productive service is the foundation of non-profit organizations. All volunteers must be willing to serve our community (Maryland and Washington, D.C.) with Faith, Hope and Love. Volunteers must be skilled in the area chosen to assist DSF, Inc.",
   volunteersNeeded: [
-    "Case Managers",
-    "Research Analyst",
-    "Media Support Specialist",
-    "Counselors",
-    "Therapists",
-    "Advisors",
     "Administrative Support",
+    "Advisors",
+    "Advocates",
+    "Case Managers",
+    "Counselors",
+    "Event Specialist",
+    "Grant Coordinator",
+    "Grant Writer",
     "Life Coaches",
-    "Advocates (Domestic Violence, Mental Health, personal development, and Conflict Resolution)",
-    "Paralegals/Attorneys",
+    "Media Support Specialist",
+    "Paralegals",
+    "Program Coordinator",
+    "Research Analyst",
+    "Secretary",
+    "Therapists",
   ],
   volunteerPDFPositions: {
     caseManagers: "/pdf/Case_Manager.pdf",
     counselors: "/pdf/Counselors.pdf",
     researchAnalyst: "pdf/Research_Analyst.pdf",
-    therapists: "pdf/Therapist.pdf",
+    therapists: "/pdf/Therapist.pdf",
+    mediaSupportSpecialist: "/pdf/Media_Support_Specialist.pdf",
+    advocates: "/pdf/Advocate.pdf",
+    lifeCoaches: "/pdf/Life_Coach.pdf",
+    administrativeSupport: "/pdf/Administrative_Support.pdf",
+    advisors: "/pdf/Advisor.pdf",
+    paralegals: "/pdf/Paralegal.pdf",
+    eventSpecialist: "/pdf/Event_Specialist.pdf",
+    grantCoordinator: "/pdf/Grant_Coordinator.pdf",
+    grantWriter: "/pdf/Grant_Writer.pdf",
+    secretary: "/pdf/Secretary.pdf",
+    programCoordinator: "/pdf/Program_Coordinator.pdf",
   },
   mentorsNeeded: ["Advisors", "Counselors", "Therapists"],
   paragraphTwo:

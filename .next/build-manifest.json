@@ -19,11 +19,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/Intern.js"
     ],
-    "/Mentor": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Mentor.js"
-    ],
     "/VolunteerPage": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
