@@ -13,7 +13,7 @@ const CauseCard = ({ title, raisedValue, goalValue, progressValue, imageUrl, cli
             <div className="wpo-case-content">
                 <div className="wpo-case-text-top">
                     <h2>{title}</h2>
-                    <div className="progress-section">
+                    {/* <div className="progress-section">
                         <div className="process">
                             <div className="progress">
                                 <div className="progress-bar">
@@ -25,7 +25,7 @@ const CauseCard = ({ title, raisedValue, goalValue, progressValue, imageUrl, cli
                     <ul>
                         <li><span>Raised:</span>{`$${raisedValue}.00`}</li>
                         <li><span>Goal:</span>{`$${goalValue}.00`}</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="case-btn">
                     <ul>

@@ -6,6 +6,7 @@ import {
   contactDetials,
   socialMediaLinks,
 } from "../utils/contents";
+import FooterCause from "./FooterCause";
 
 const Footer = () => {
   const { email, mailing, phone } = contactDetials;
@@ -27,7 +28,14 @@ const Footer = () => {
               <div className="widget about-widget">
                 <div className="logo widget-title">
                   {/* <img src='images/dsfi_logo_white_text.png' alt=""/> */}
-                  <img src="/images/logo/dsf_new_logo.png" alt="logo image" />
+                  <Link href="/">
+                    <a>
+                      <img
+                        src="/images/logo/dsf_new_logo.png"
+                        alt="logo image"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <p>{missionStatement}</p>
                 <ul>
@@ -78,39 +86,30 @@ const Footer = () => {
                 <div className="widget-title">
                   <h3>Our Causes</h3>
                 </div>
-                <div className="news-wrap">
-                  <div className="news-img">
-                    <img src="/images/footer/mental_health_small.jpeg" alt="" />
-                  </div>
-                  <div className="news-text">
-                    <h3>
-                      <Link
-                        onClick={ClickHandler}
-                        href="/CaseSinglePage/MentalHealthAwareness"
-                      >
-                        <a>Mental Health Awareness</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
-                <div className="news-wrap">
-                  <div className="news-img">
-                    <img
-                      src="/images/footer/domestic_violence_smaller.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="news-text">
-                    <h3>
-                      <Link
-                        onClick={ClickHandler}
-                        href="/CaseSinglePage/DomesticViolenceAwareness"
-                      >
-                        <a>Domestic Violence Awareness</a>
-                      </Link>
-                    </h3>
-                  </div>
-                </div>
+                <FooterCause
+                  imageUrl="/images/footer/mental_health_small.jpeg"
+                  link="/CaseSinglePage/DomesticViolenceAwareness"
+                  title="Mental Health Awareness"
+                  ClickHandler={ClickHandler}
+                />
+                <FooterCause
+                  imageUrl="/images/footer/domestic_violence_smaller.png"
+                  link="/CaseSinglePage/MentalHealthAwareness"
+                  title="Domestic Violence Awareness"
+                  ClickHandler={ClickHandler}
+                />
+                <FooterCause
+                  imageUrl="/images/footer/youth_empowerment_smaller.png"
+                  link="/CaseSinglePage/YouthEmpowerment"
+                  title="Youth Empowerment"
+                  ClickHandler={ClickHandler}
+                />
+                <FooterCause
+                  imageUrl="/images/footer/conflict_resolution_smaller.png"
+                  link="/CaseSinglePage/ConflictResolutionAwareness"
+                  title="Conflict Resolution Awareness"
+                  ClickHandler={ClickHandler}
+                />
               </div>
             </div>
             <div className="col col-lg-2 col-md-6 col-sm-12 col-12">

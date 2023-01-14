@@ -30,6 +30,6 @@ export const teambio = {
       "She earned her Masters of Science Degree in Health Informatics Administration Management at University of Maryland Global Campus and a Masters in Cancer Studies and Molecular Biology from the University of Leicester.",
       "She lives in Glen Burnie, Maryland with her husband and loves hiking, playing basketball, developing and building young leaders and AirBnB hosting and real estate investments.",
     ],
-    picture: "/images/team/rsz_11caryne.png",
+    picture: "/images/team/caryne_optimised.png",
   },
 };

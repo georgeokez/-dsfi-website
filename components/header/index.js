@@ -12,7 +12,7 @@ const Header = () => {
           <div className="row" style={{ justifyContent: "space-between" }}>
             <div className="col-lg-3 col-md-4 col-sm-4 col-4">
               <div className="logo">
-                <Link href="/" title="">
+                <Link href="/" title="home page">
                   <a>
                     {/* <img src='images/dsfi-logo-no-bg.png' height={80} alt=""/> */}
                     <img

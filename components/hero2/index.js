@@ -19,8 +19,8 @@ const Hero2 = (props) => {
                     and/or challanges
                   </p>
                   <p>
-                    And we provide services and programs services to communities
-                    that share in our mission and vision to help Individuals and
+                    And we provide services and programs to communities that
+                    share in our mission and vision to help Individuals and
                     families.
                   </p>
                 </div>
