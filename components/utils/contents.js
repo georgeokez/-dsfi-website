@@ -36,7 +36,7 @@ export const addon1 = {
 export const addon2 = {
   content2:
     "We will promote and encourage healing for victims and survivors of Domestic Violence or any other form of abuse (i.e., verbal, physical, emotional, sexual, neglect, etc.). Case management services, advocates, advisors and counselors will assist with the healing process of those suffering individuals.",
-  title2: "DSF, Inc. wil encourage healing",
+  title2: "DSF, Inc. will encourage healing",
 };
 
 export const addon3 = {
@@ -54,7 +54,7 @@ export const addon3 = {
 
 export const addon4 = {
   content4:
-    "We provide case management services throughout Maryland and Washington, D.C. that share in our mission and vision.",
+    "We provide services and programs throughout Maryland and Washington, D.C. that share in our mission and vision.",
   content4Items: [
     "Case Management",
     "Advisory",
@@ -66,7 +66,7 @@ export const addon4 = {
     "Spiritual Developement",
     "Self-esteem Development",
   ],
-  title4: "DSF, Inc. will provide Case Management Services",
+  title4: "DSF, Inc. will provide services and programs",
 };
 
 export const aboutContentOne =
