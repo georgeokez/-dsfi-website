@@ -163,7 +163,7 @@ export const contactDetials = {
   email: "info.dsfinc@gmail.com",
   phone: "301-597-8367",
   fax: "(240) 414-4794",
-  mailing: "PO Box 1170 Temple Hills, MD 20757",
+  mailing: "Oxon Hill Rd Ste 200 #1031 Fort Washington, MD 20744",
 };
 
 export const socialAccounts = {
